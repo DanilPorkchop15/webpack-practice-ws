@@ -8,8 +8,8 @@
 }
 $font-path: "~/assets/fonts/";
 
-// @include font-face("FiraCode", 400, normal, $font-path + "FiraCode-Regular.ttf");
-// @include font-face("FiraCode", 500, normal, $font-path + "FiraCode-Medium.ttf");
-// @include font-face("FiraCode", 600, normal, $font-path + "FiraCode-Semibold.ttf");
-// @include font-face("FiraCode", 700, normal, $font-path + "FiraCode-Bold.ttf");
-// @include font-face("FiraCode", 300, normal, $font-path + "FiraCode-Light.ttf");
+@include font-face("FiraCode", 400, normal, $font-path + "FiraCode-Regular.ttf");
+@include font-face("FiraCode", 500, normal, $font-path + "FiraCode-Medium.ttf");
+@include font-face("FiraCode", 600, normal, $font-path + "FiraCode-SemiBold.ttf");
+@include font-face("FiraCode", 700, normal, $font-path + "FiraCode-Bold.ttf");
+@include font-face("FiraCode", 300, normal, $font-path + "FiraCode-Light.ttf");
