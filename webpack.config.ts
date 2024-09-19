@@ -36,7 +36,7 @@ const config: WebpackConfig = {
               '@babel/preset-react',
               '@babel/preset-typescript',
             ],
-            cacheDirectory: true, // Enable caching for faster rebuilds
+            cacheDirectory: true, 
           },
         },
       },
@@ -52,7 +52,7 @@ const config: WebpackConfig = {
         },
         parser: {
           dataUrlCondition: {
-            maxSize: 10 * 1024, // Inline assets below 10kb
+            maxSize: 10 * 1024, 
           },
         },
       },
